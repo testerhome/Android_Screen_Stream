@@ -26,6 +26,6 @@ jython screenshot.py
 
 ### 效果展示
 
-![效果](ass.png)
+![效果](ass.PNG)
 
-![效果](ass2.png)
+![效果](ass2.PNG)
