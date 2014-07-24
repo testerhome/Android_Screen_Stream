@@ -1,0 +1,27 @@
+<html>
+<head>
+    <title>Android Screen Stream Demo</title>
+    <style type="text/css">
+    body{padding:0;margin:0;}
+    #mobilebody{box-shadow: 5px 5px 20px #888888;border-radius:20px;border-top:40px solid #000000;border-bottom:40px solid #000000;width:240px;height:400px;padding:5px;background-color:#000000;margin:auto;}
+    </style>
+    <script type='text/javascript' src='http://cdn.staticfile.org/jquery/1.10.2/jquery.min.js'></script>
+    <script>
+      function startTime(){
+          window.location.reload();
+          setTimeout('startTime()',100);
+      }
+    </script>
+</head>
+<body onload="startTime()">
+    <div id="header">
+        <h1 style="text-align:center;margin-top:100px;"></h1>
+    </div>
+    <div id="mobilebody">
+    <img id="demoimg" src="current_frame.jpeg" width="240px" height="400px">
+    </div>
+    <div id="footer">
+        <div style="text-align:center;margin-top:20px;font-size:32px;font-weight:bolder;font-family:'PT Sans Narrow',Calibri,'Lucida Sans',Helvetica,'Hiragino Sans GB','Microsoft Yahei','微软雅黑',Arial,Verdana;color:#333333;"><p>MEIZU MX3</p></div>
+    </div>
+</body>
+</html>
