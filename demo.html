@@ -8,8 +8,8 @@
     <script type='text/javascript' src='http://cdn.staticfile.org/jquery/1.10.2/jquery.min.js'></script>
     <script>
       function startTime(){
-          window.location.reload();
-          setTimeout('startTime()',100);
+          document.getElementById('demoimg').src=document.getElementById('demoimg').src+"?framedata";
+          setTimeout('startTime()',1000);
       }
     </script>
 </head>

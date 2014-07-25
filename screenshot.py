@@ -8,7 +8,6 @@ import sys,os
 sys.path.append(r'C:\\ddmlib.jar')
 sys.path.append(r'C:\\guava17.jar')
 sys.path.append(r'C:\\rt.jar')
-from threading import Thread
 
 #import lib
 from java.awt.image import *
@@ -20,7 +19,6 @@ from time import sleep
 class AndroidScreenStream(object):
 
     def __init__(self):
-        super(AndroidScreenStream,self).__init__()
         self.devices=[]
         self.currentdevice=None
         self.rawimgdata=None
