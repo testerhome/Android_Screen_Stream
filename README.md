@@ -13,6 +13,9 @@ Android_Screen_Stream
 
 需要jython
 
+### 依赖jar包
+
+见代码顶端,自己调整一下
 
 ### 运行
 
@@ -22,7 +25,9 @@ jython screenshot.py
 
 ### 打开demo.html
 
-目前采用最暴力的reload手段让你看到实时刷新效果。
+然后在目录中找到demo.html用chrome或者Firefox打开
+你就可以欣赏到屏幕回传了。
+不支持IE9以下浏览器......
 
 ### 效果展示
 
